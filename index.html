@@ -78,13 +78,13 @@
 			<div class="container">
 				<div class="nav-header">
 					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle dark"><i></i></a>
-					<h1 id="fh5co-logo"><a href="index.html"><i class="icon-airplane"></i>Natal sem Sede</a></h1>
+					<h1 id="fh5co-logo"><a href="index.html"><i class="icon-water"></i>Natal sem Sede</a></h1>
 					<!-- START #fh5co-menu-wrap -->
 					<nav id="fh5co-menu-wrap" role="navigation">
 						<ul class="sf-menu" id="fh5co-primary-menu">
 							<li class="active"><a href="index.html">Início</a></li>
 							<li>
-								<a href="vacation.html" class="fh5co-sub-ddown">Vacations</a>
+								<a href="vacation.html" class="fh5co-sub-ddown">Páginas</a>
 								<ul class="fh5co-sub-menu">
 									<li><a href="#">Family</a></li>
 									<li><a href="#">CSS3 &amp; HTML5</a></li>
@@ -93,11 +93,11 @@
 									<li><a href="#">Django &amp; Python</a></li>
 								</ul>
 							</li>
-							<li><a href="flight.html">Flights</a></li>
-							<li><a href="hotel.html">Hotel</a></li>
-							<li><a href="car.html">Car</a></li>
+							<li><a href="flight.html">Apoiadores</a></li>
+							<li><a href="hotel.html">Vídeos</a></li>
+							<li><a href="car.html">Fotos</a></li>
 							<li><a href="blog.html">Blog</a></li>
-							<li><a href="contact.html">Contact</a></li>
+							<li><a href="contact.html">Contato</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -118,81 +118,58 @@
 								  <!-- Nav tabs -->
 								   <ul class="nav nav-tabs" role="tablist">
 								      <li role="presentation" class="active">
-								      	<a href="#flights" aria-controls="flights" role="tab" data-toggle="tab">Flights</a>
+								      	<a href="#flights" aria-controls="flights" role="tab" data-toggle="tab">Boleto</a>
 								      </li>
 								      <li role="presentation">
-								    	   <a href="#hotels" aria-controls="hotels" role="tab" data-toggle="tab">Hotels</a>
+								    	   <a href="#hotels" aria-controls="hotels" role="tab" data-toggle="tab">PIX</a>
 								      </li>
 								      <li role="presentation">
-								    	   <a href="#packages" aria-controls="packages" role="tab" data-toggle="tab">Packages</a>
+								    	   <a href="#packages" aria-controls="packages" role="tab" data-toggle="tab">Mensal</a>
 								      </li>
 								   </ul>
 
-								   <!-- Tab panes -->
+								   <!-- Tab Boleto -->
 									<div class="tab-content">
 									 <div role="tabpanel" class="tab-pane active" id="flights">
 										<div class="row">
 											<div class="col-xxs-12 col-xs-6 mt">
 												<div class="input-field">
-													<label for="from">From:</label>
-													<input type="text" class="form-control" id="from-place" placeholder="Los Angeles, USA"/>
+													<label for="from">Nome:</label>
+													<input type="text" class="form-control" id="from-place" placeholder="Nome"/>
 												</div>
 											</div>
 											<div class="col-xxs-12 col-xs-6 mt">
 												<div class="input-field">
-													<label for="from">To:</label>
-													<input type="text" class="form-control" id="to-place" placeholder="Tokyo, Japan"/>
+													<label for="from">Sobrenome:</label>
+													<input type="text" class="form-control" id="to-place" placeholder="Sobrenome"/>
 												</div>
 											</div>
 											<div class="col-xxs-12 col-xs-6 mt alternate">
 												<div class="input-field">
-													<label for="date-start">Check In:</label>
-													<input type="text" class="form-control" id="date-start" placeholder="mm/dd/yyyy"/>
+													<label for="date-start">WhatsApp:</label>
+													<input type="text" class="form-control" id="date-start" placeholder="WhatsApp"/>
 												</div>
 											</div>
 											<div class="col-xxs-12 col-xs-6 mt alternate">
 												<div class="input-field">
-													<label for="date-end">Check Out:</label>
-													<input type="text" class="form-control" id="date-end" placeholder="mm/dd/yyyy"/>
+													<label for="date-end">Cidade:</label>
+													<input type="text" class="form-control" id="date-end" placeholder="Cidade"/>
 												</div>
 											</div>
 											<div class="col-sm-12 mt">
 												<section>
-													<label for="class">Class:</label>
+													<label for="class">Tipo:</label>
 													<select class="cs-select cs-skin-border">
-														<option value="" disabled selected>Economy</option>
-														<option value="economy">Economy</option>
-														<option value="first">First</option>
+														<option value="" disabled selected>Única</option>
+														<option value="economy">Mensal</option>
+														<option value="first">Anual</option>
 														<option value="business">Business</option>
 													</select>
 												</section>
 											</div>
-											<div class="col-xxs-12 col-xs-6 mt">
-												<section>
-													<label for="class">Adult:</label>
-													<select class="cs-select cs-skin-border">
-														<option value="" disabled selected>1</option>
-														<option value="1">1</option>
-														<option value="2">2</option>
-														<option value="3">3</option>
-														<option value="4">4</option>
-													</select>
-												</section>
-											</div>
-											<div class="col-xxs-12 col-xs-6 mt">
-												<section>
-													<label for="class">Children:</label>
-													<select class="cs-select cs-skin-border">
-														<option value="" disabled selected>1</option>
-														<option value="1">1</option>
-														<option value="2">2</option>
-														<option value="3">3</option>
-														<option value="4">4</option>
-													</select>
-												</section>
-											</div>
+											
 											<div class="col-xs-12">
-												<input type="submit" class="btn btn-primary btn-block" value="Search Flight">
+												<input type="submit" class="btn btn-primary btn-block" value="Aplicar">
 											</div>
 										</div>
 									 </div>
@@ -330,10 +307,11 @@
 							</div>
 							<div class="desc2 animate-box">
 								<div class="col-sm-7 col-sm-push-1 col-md-7 col-md-push-1">
-									<p>HandCrafted by <a href="http://frehtml5.co/" target="_blank" class="fh5co-site-name">FreeHTML5.co</a></p>
+									<p>Desenvolvido por <a href="http://frehtml5.co/" target="_blank" class="fh5co-site-name">Trade Solution Tools</a></p>
 									<h2>Faça sua doação</h2>
-									<h3>Apoie essa missão de salvar vidas</h3>
+									<h3>Faça parte dessa missão</h3>
 									<span class="price">R$ 20,00</span>
+									<h4 style="color: white;">A partir de </h4>
 									<!-- <p><a class="btn btn-primary btn-lg" href="#">Get Started</a></p> -->
 								</div>
 							</div>
@@ -348,8 +326,8 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
-						<h3>Hot Tours</h3>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+						<h3>Nossa Missão</h3>
+						<p>Em meio à vastidão do nosso interior, onde a escassez muitas vezes dita a rotina, surge um farol de esperança chamado Natal Sem Sede. Este projeto filantrópico nasceu do desejo de transformar a realidade de comunidades carentes, especialmente na época natalina, levando não apenas a alegria da festa, mas itens essenciais para a dignidade humana: água potável, roupas e brinquedos.</p>
 					</div>
 				</div>
 				<div class="row">
@@ -358,9 +336,9 @@
 							<div class="desc">
 								<span></span>
 								<h3>2022</h3>
-								<span>3 nights + Flight 5*Hotel</span>
+								<span>Arrecadado</span>
 								<span class="price">R$ 30.000,00</span>
-								<a class="btn btn-primary btn-outline" href="#">Book Now <i class="icon-arrow-right22"></i></a>
+								<a class="btn btn-primary btn-outline" href="#">Detalhes <i class="icon-arrow-right22"></i></a>
 							</div>
 						</div>
 					</div>
@@ -369,9 +347,9 @@
 							<div class="desc">
 								<span></span>
 								<h3>2023</h3>
-								<span>4 nights + Flight 5*Hotel</span>
+								<span>Arrecadado</span>
 								<span class="price">R$ 32.000,00</span>
-								<a class="btn btn-primary btn-outline" href="#">Book Now <i class="icon-arrow-right22"></i></a>
+								<a class="btn btn-primary btn-outline" href="#">Detalhes <i class="icon-arrow-right22"></i></a>
 							</div>
 						</div>
 					</div>
@@ -380,9 +358,9 @@
 							<div class="desc">
 								<span></span>
 								<h3>2024</h3>
-								<span>2 nights + Flight 4*Hotel</span>
+								<span>Arrecadado</span>
 								<span class="price">R$ 25.000,00</span>
-								<a class="btn btn-primary btn-outline" href="#">Book Now <i class="icon-arrow-right22"></i></a>
+								<a class="btn btn-primary btn-outline" href="#">Detalhes <i class="icon-arrow-right22"></i></a>
 							</div>
 						</div>
 					</div>
@@ -576,7 +554,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
-						<h3>Recent From Blog</h3>
+						<h3>Ações Recentes</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit est facilis maiores, perspiciatis accusamus asperiores sint consequuntur debitis.</p>
 					</div>
 				</div>
@@ -588,10 +566,10 @@
 							<a href="#"><img class="img-responsive" src="images/place-1.jpg" alt=""></a>
 							<div class="blog-text">
 								<div class="prod-title">
-									<h3><a href="#">30% Discount to Travel All Around the World</a></h3>
-									<span class="posted_by">Sep. 15th</span>
+									<h3><a href="#">Ação 1</a></h3>
+									<span class="posted_by">15 de Novembro</span>
 									<span class="comment"><a href="">21<i class="icon-bubble2"></i></a></span>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+									<p>Descrição completa da ação.</p>
 									<p><a href="#">Leia mais...</a></p>
 								</div>
 							</div> 
@@ -602,10 +580,10 @@
 							<a href="#"><img class="img-responsive" src="images/place-2.jpg" alt=""></a>
 							<div class="blog-text">
 								<div class="prod-title">
-									<h3><a href="#">Planning for Vacation</a></h3>
-									<span class="posted_by">Sep. 15th</span>
+									<h3><a href="#">Ação 2</a></h3>
+									<span class="posted_by">15 de Novembro</span>
 									<span class="comment"><a href="">21<i class="icon-bubble2"></i></a></span>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+									<p>Descrição completa da ação.</p>
 									<p><a href="#">Leia mais...</a></p>
 								</div>
 							</div> 
@@ -617,10 +595,10 @@
 							<a href="#"><img class="img-responsive" src="images/place-3.jpg" alt=""></a>
 							<div class="blog-text">
 								<div class="prod-title">
-									<h3><a href="#">Visit Tokyo Japan</a></h3>
-									<span class="posted_by">Sep. 15th</span>
+									<h3><a href="#">Ação 3</a></h3>
+									<span class="posted_by">15 de Novembro</span>
 									<span class="comment"><a href="">21<i class="icon-bubble2"></i></a></span>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+									<p>Descrição completa da ação.</p>
 									<p><a href="#">Leia mais...</a></p>
 								</div>
 							</div> 
@@ -630,7 +608,7 @@
 				</div>
 
 				<div class="col-md-12 text-center animate-box">
-					<p><a class="btn btn-primary btn-outline btn-lg" href="#">See All Post <i class="icon-arrow-right22"></i></a></p>
+					<p><a class="btn btn-primary btn-outline btn-lg" href="#">Ver todos <i class="icon-arrow-right22"></i></a></p>
 				</div>
 
 			</div>
@@ -640,7 +618,7 @@
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Happy Clients</h2>
+					<h2>Depoimentos</h2>
 				</div>
 			</div>
 			<div class="row">
@@ -648,9 +626,9 @@
 					<div class="box-testimony animate-box">
 						<blockquote>
 							<span class="quote"><span><i class="icon-quotes-right"></i></span></span>
-							<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+							<p>&ldquo;Depoimento completo aqui.&rdquo;</p>
 						</blockquote>
-						<p class="author">John Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span></p>
+						<p class="author">José da Silva, Agricultor <span class="subtext">Russas</span></p>
 					</div>
 					
 				</div>
@@ -658,9 +636,9 @@
 					<div class="box-testimony animate-box">
 						<blockquote>
 							<span class="quote"><span><i class="icon-quotes-right"></i></span></span>
-							<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;</p>
+							<p>&ldquo;Depoimento completo aqui.&rdquo;</p>
 						</blockquote>
-						<p class="author">John Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span></p>
+						<p class="author">José da Silva, Agricultor <span class="subtext">Russas</span></p>
 					</div>
 					
 					
@@ -669,9 +647,9 @@
 					<div class="box-testimony animate-box">
 						<blockquote>
 							<span class="quote"><span><i class="icon-quotes-right"></i></span></span>
-							<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+							<p>&ldquo;Depoimento completo aqui.&rdquo;</p>
 						</blockquote>
-						<p class="author">John Doe, Founder <a href="#">FREEHTML5.co</a> <span class="subtext">Creative Director</span></p>
+						<p class="author">José da Silva, Agricultor <span class="subtext">Russas</span></p>
 					</div>
 					
 				</div>
@@ -683,7 +661,7 @@
 				<div class="container">
 					<div class="row row-bottom-padded-md">
 						<div class="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
-							<h3>About Travel</h3>
+							<h3>Sobre</h3>
 							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 						</div>
 						<div class="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
@@ -697,7 +675,7 @@
 							</ul>
 						</div>
 						<div class="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
-							<h3>Top Hotels</h3>
+							<h3>Setores</h3>
 							<ul>
 								<li><a href="#">Boracay Hotel</a></li>
 								<li><a href="#">Dubai Hotel</a></li>
@@ -706,7 +684,7 @@
 							</ul>
 						</div>
 						<div class="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
-							<h3>Interest</h3>
+							<h3>Equipes</h3>
 							<ul>
 								<li><a href="#">Beaches</a></li>
 								<li><a href="#">Family Travel</a></li>
@@ -735,13 +713,12 @@
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 text-center">
 							<p class="fh5co-social-icons">
-								<a href="#"><i class="icon-twitter2"></i></a>
 								<a href="#"><i class="icon-facebook2"></i></a>
 								<a href="#"><i class="icon-instagram"></i></a>
 								<a href="#"><i class="icon-dribbble2"></i></a>
 								<a href="#"><i class="icon-youtube"></i></a>
 							</p>
-							<p>Copyright 2016 Free Html5 <a href="#">Module</a>. All Rights Reserved. <br>Made with <i class="icon-heart3"></i> by <a href="http://freehtml5.co/" target="_blank">Freehtml5.co</a> / Demo Images: <a href="https://unsplash.com/" target="_blank">Unsplash</a></p>
+							<p>Copyright 2025 <a href="#">Trade Solution Tools</a>. Todos os direitos reservados. <br>Criado <i class="icon-heart3"></i> por <a href="http://freehtml5.co/" target="_blank">Jhonatan Oliveira</a> / Imagens: <a href="https://unsplash.com/" target="_blank">Fonte</a></p>
 						</div>
 					</div>
 				</div>
