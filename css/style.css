@@ -312,6 +312,7 @@ figure {
   bottom: 0;
   right: 0;
   z-index: 1;
+  background: rgba(129, 129, 129, 0.5);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3e1c', endColorstr='#ff8c00', GradientType=1 );
 }
 
